@@ -1,6 +1,6 @@
 <?php
-mysql_connect("localhost","root","");
-mysql_select_db("saipuljamil");
+mysql_connect("mysql.idhostinger.com","u984939718_fuck","javsin");
+mysql_select_db("u984939718_fuck");
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -400,48 +400,6 @@ mysql_select_db("saipuljamil");
     <!-- End Title Page -->
 <!-- Music Form -->    
 <div class="container">
-<!-- Start Alerts/Tabs Section -->
-        <div class="row">
-        	<!-- Start Alerts -->
-            <div class="span6">
-            	<h3 class="spec">Notifications</h3>
-            
-                <div class="alert alert-standard fade in">
-                    <a class="close" data-dismiss="alert" href="#">&times;</a>
-                    <strong>Justin Bieber</strong>
-<br> 
-Lihat Lagu Justin Bieber Lebih Banyak <a href="http:">Di sini</a>
-                </div>
-                
-                <div class="alert fade in">
-                    <a class="close" data-dismiss="alert" href="#">&times;</a>
-                    <strong>Harris J</strong>
-<br> 
- Lihat Lagu Harris J Lebih Banyak 
-<br> 
-<a href="http:">Di sini</a>
-                </div>
-                
-                <div class="alert alert-error fade in">
-                    <a class="close" data-dismiss="alert" href="#">&times;</a>
-                    <strong>Oh snap!</strong> Change a few things up and try submitting again. 
-                </div>
-
-                <div class="alert alert-info fade in">
-                    <a class="close" data-dismiss="alert" href="#">&times;</a>
-                	<strong>Heads up!</strong> This alert needs your attention, but it's not super important. 
-            	</div>
-                
-                <div class="alert alert-success fade in">
-                    <a class="close" data-dismiss="alert" href="#">&times;</a>
-                    <strong>Well done!</strong> You successfully read this important alert message. 
-                </div>
-
-            <br>
- <br>
-
-</div>
-            <!-- End Alerts -->
         	<html >
   <head>
     <meta charset="UTF-8">
@@ -467,7 +425,7 @@ I make music for ears.
                   <i class="fa fa-play" id="playing"></i>
                 </div>
               </a>
-              <audio id="audio" src="sungking.mp3" style="visibility:hidden"></audio>
+              <audio id="audio" src="lagu/play.mp3" style="visibility:hidden"></audio>
             </div>
           </div>
        	</div>
@@ -483,24 +441,6 @@ I make music for ears.
     <!-- End Music Form -->
 </div>
 </div>
-
-<!-- Twitter Feed -->
-<div id="twitter-feed" class="page-alternate">
-	<div class="container">
-    	<div class="row">
-            <div class="span12">
-                <div class="follow">
-                    <a href="fuck.html" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
-                </div>
-                    
-                <div id="ticker" class="query"> 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Twitter Feed -->
-
 <!-- Socialize -->
 <div id="social-area" class="page">
 	<div class="container">
