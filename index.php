@@ -415,7 +415,7 @@ mysql_select_db("u984939718_fuck");
                     <div class="profile_dp"></div>
                   </a>
               </div>
-              <label class="name">One Ok Rock - To Feel Fire</label>
+              <label class="name">Thug Life - Snoopdog</label>
               <div class="quote">
                 I don't make music for eyes. 
 I make music for ears.
@@ -467,7 +467,7 @@ I make music for ears.
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;2015 Kirimito <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Project</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">People Team</a></p>
+	<p class="credits">&copy;2015 Kirimito <a href="#" title="">Project</a> by <a href="#" title="">People Team</a></p>
 </footer>
 <!-- End Footer -->
 
