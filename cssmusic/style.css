@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+}
+.container {
+  float: left;
+  width: 100%;
+  background-image: radial-gradient(top, #b1b0b8 40%, #4a3f37 100%);
+  background-image: -webkit-radial-gradient(top, #b1b0b8 40%, #4a3f37 100%);
+  background-image: -o-radial-gradient(top, #b1b0b8 40%, #4a3f37 100%);
+  height: 100vh;
+  position: relative;
+}
+.container .visi {
+  opacity: 0;
+  position: absolute;
+}
+.container .profile_container {
+  width: 280px;
+  height: 410px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 3px;
+  background: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.container .profile_container:hover {
+  box-shadow: 0 3px 6px 0 #686868;
+}
+.container .profile {
+  float: left;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.container .profile .profile_img:after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/JY059P56O1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  z-index: -1;
+  -webkit-transform: skewY(-15deg);
+          transform: skewY(-15deg);
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+}
+.container .profile .profile_img {
+  width: 100%;
+  height: 210px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  position: relative;
+  margin-top: -75px;
+}
+.container .profile .profile_img .profile_dp {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 3.5px solid #FFF;
+  background: url('http://www.electric949.com/wp-content/uploads/2015/08/6981414-adele-pictures.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  position: absolute;
+  bottom: -40%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.container .profile .name {
+  text-align: center;
+  color: #4A403A;
+  font-size: 16px;
+  float: left;
+  width: 100%;
+  display: block;
+  padding-top: 100px;
+}
+.container .profile .quote {
+  text-align: center;
+  font-size: 14px;
+  float: left;
+  color: #A5A8AE;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  padding: 13px 48px;
+}
+.container .profile .see_btn {
+  position: absolute;
+  bottom: 25px;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-image: -webkit-linear-gradient(270deg, #61747B 0%, #4C5769 100%);
+  background-image: linear-gradient(-180deg, #61747B 0%, #4C5769 100%);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15), 0px 6px 4px 0px rgba(0, 0, 0, 0.1), 0px 2px 2px 0px rgba(0, 0, 0, 0.2), inset 0px -3px 0px 0px rgba(0, 0, 0, 0.1);
+  left: 50%;
+  white-space: nowrap;
+  color: #4A403A;
+  font-size: 11px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.container .profile .see_btn i {
+  font-size: 20px;
+  color: #C5D6DE;
+  margin: 10px 15px;
+}
+.container .profile .see_btn:hover {
+  background-image: -webkit-linear-gradient(270deg, #6A787E 0%, #323944 100%);
+  background-image: linear-gradient(-180deg, #6A787E 0%, #323944 100%);
+}

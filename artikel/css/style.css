@@ -1,0 +1,139 @@
+body{
+   font-size: 36px; 
+   font-weight: 300;
+   font-family: source-sans-pro;
+   line-height: 1.8;
+   color: white; 
+   background:#2F3238;
+}
+.warna {
+font-color:purple;
+border-radius:1000px;
+font-size:100px;
+}
+#header{
+background:#f0f0f0;
+position:relative;
+bottom:0;
+width:100%;
+text-align:center;
+color:black;
+padding-bottom:40px;
+border-radius:100px 100px;
+}
+
+#footer{
+background:#f0f0f0;
+position:relative;
+bottom:0;
+width:100%;
+text-align:center;
+color:black;
+padding-bottom:40px;
+border-radius:1000px 1010px;
+}
+
+panggon{
+background:#f0f0f0;
+position:relative;
+bottom:0;
+width:100%;
+text-align:center;
+color:black;
+padding-bottom:40px;
+border-radius:10px;
+}
+
+.post{
+  max-width: 35em; 
+}
+
+h1, h2{
+    font-weight: 400;
+}
+
+h1{
+  font-size: 2rem;
+  line-height: 1;
+}
+
+h2{
+  font-size: 1.33rem; 
+  line-height: 1;
+  padding: 0.9rem 0 0.6rem 0;
+}
+
+b{
+  font-weight: 600; 
+}
+
+a{
+  color: #4166B5;  
+  text-decoration: none; 
+}
+
+code{
+  font-weight: 400;
+  font-family: source-code-pro; 
+}
+
+.blue{
+   color: #4166B5;  
+}
+
+#colors{
+  position: absolute;
+  right: 0;
+   width: 250px; 
+}
+
+.alice{
+   font-size: 1.4rem;
+   font-family: alice; 
+}
+
+.color-swatch{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+#blue1{
+ background-color: #4166B5; 
+}
+
+#blue2{
+ background-color: #507DBF; 
+}
+
+#blue3{
+ background-color: #719AD1; 
+}
+
+#blue4{
+ background-color: #9BBCE3; 
+}
+
+#orange1{
+ background-color: #D06827; 
+}
+
+#orange2{
+ background-color: #E78924; 
+}
+
+#black1{
+ background-color: #404040; 
+}
+
+#black2{
+ background-color: #686868; 
+}
+
+#grey1{
+ background-color: #B7B7B7; 
+}
+
+#offwhite1{
+ background-color: #EFEFEF; 
+}
